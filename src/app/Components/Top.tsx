@@ -1,4 +1,5 @@
 import React from 'react'
+import Image from 'next/image'
 
 const Top = () => {
     return (
@@ -14,7 +15,7 @@ const Top = () => {
             <div className='flex justify-center items-center'>
                 <div className='w-[287px] h-[372px]'>
                     <div className='w-[287px] h-[287px]'>
-                        <img
+                        <Image
                             className="h-auto max-w-full rounded-lg mt-5"
                             src="/images/Trenton modular sofa_3 1.png"
                             alt="Sofa"
@@ -35,7 +36,7 @@ const Top = () => {
             <div className='flex justify-center items-center'>
                 <div className='w-[287px] h-[372px]'>
                     <div className='w-[287px] h-[287px]'>
-                        <img
+                        <Image
                             className="h-auto max-w-full rounded-lg mt-5"
                             src="/images/Granite dining table with dining chair 1.png"
                             alt="Sofa"
@@ -55,7 +56,7 @@ const Top = () => {
             <div className='flex justify-center items-center'>
                 <div className='w-[287px] h-[372px]'>
                     <div className='w-[287px] h-[287px]'>
-                        <img
+                        <Image
                             className="h-auto max-w-full rounded-lg mt-5"
                             src="/images/Outdoor bar table and stool 1.png"
                             alt="Sofa"
@@ -75,7 +76,7 @@ const Top = () => {
             <div className='flex justify-center items-center'>
                 <div className='w-[287px] h-[372px]'>
                     <div className='w-[287px] h-[287px]'>
-                        <img
+                        <Image
                             className="h-auto max-w-full rounded-lg mt-5"
                             src="/images/Plain console with teak mirror 1.png"
                             alt="Sofa"

@@ -1,9 +1,10 @@
 import React from 'react'
-import { MdArrowForwardIos } from "react-icons/md";
-import { FaApple } from "react-icons/fa";
-import Link from 'next/link';
-import { FaArrowRight } from "react-icons/fa6";
-import Image from 'next/image';
+import Image from 'next/image'
+
+
+
+
+
 
 
 
@@ -29,7 +30,8 @@ const Hero = () => {
             <div>
                 
 {/* /right/ */}
-  <img className="h-auto max-w-full rounded-lg" src="/images/Rocket single seater 1.png" alt="Seater"/>
+  <Image className="h-auto max-w-full rounded-lg" 
+  src={"/images/Rocket single seater 1.png" }alt="Seater"/>
   
 
             </div>

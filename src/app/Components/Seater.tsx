@@ -1,4 +1,5 @@
 import React from 'react';
+import Image from 'next/image';
 
 const Seater = () => {
     return (
@@ -14,7 +15,7 @@ const Seater = () => {
                 >
                     View More
                 </a>
-                <img
+                <Image
                     className="h-auto max-w-full rounded-lg mt-5"
                     src="/images/Granite square side table 1.png"
                     alt="Side Table"
@@ -32,7 +33,7 @@ const Seater = () => {
                 >
                     View More
                 </a>
-                <img
+                <Image
                     className="h-auto max-w-full rounded-lg mt-5"
                     src="/images/Cloud sofa three seater + ottoman_3 1.png"
                     alt="Sofa"

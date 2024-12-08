@@ -1,9 +1,9 @@
 import React from 'react'
-import Image from 'next/image'
-import { FiFacebook } from "react-icons/fi";
-import { TbBrandTwitter } from "react-icons/tb";
-import { FaInstagram } from "react-icons/fa";
-import { LuLinkedin } from "react-icons/lu";
+
+
+
+
+
 
 
 

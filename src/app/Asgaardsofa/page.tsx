@@ -1,5 +1,5 @@
 import React from 'react'
-import Link from 'next/link'
+
 import { MdKeyboardArrowRight } from "react-icons/md";
 import Image from 'next/image';
 
@@ -34,7 +34,7 @@ const page = () => {
                         <div className="grid gap-4">
                             {/* Main Image */}
                             <div className="flex items-center justify-center bg-[#FFF9E5]">
-                                <img
+                                <Image
                                     className="h-auto max-w-full "
                                     src="/images/Asgaard sofa 2.png"
                                     alt="1image"
@@ -44,37 +44,37 @@ const page = () => {
                             {/* Product Thumbnails */}
                             <div className="grid grid-cols-5 gap-4">
                                 <div className="flex items-center justify-center">
-                                    <img
+                                    <Image
                                         className="h-auto max-w-full rounded-lg"
-                                        src=""
+                                        src="/images/Asgaard sofa 2.png"
                                         alt="2image"
                                     />
                                 </div>
                                 <div className="flex items-center justify-center">
-                                    <img
+                                    <Image
                                         className="h-auto max-w-full rounded-lg"
-                                        src=""
+                                        src="/images/Asgaard sofa 2.png"
                                         alt="3image"
                                     />
                                 </div>
                                 <div className="flex items-center justify-center">
-                                    <img
+                                    <Image
                                         className="h-auto max-w-full rounded-lg"
-                                        src=""
+                                        src="/images/Asgaard sofa 2.png"
                                         alt="4image"
                                     />
                                 </div>
                                 <div className="flex items-center justify-center">
-                                    <img
+                                    <Image
                                         className="h-auto max-w-full rounded-lg"
-                                        src=""
+                                        src="/images/Asgaard sofa 2.png"
                                         alt="5image"
                                     />
                                 </div>
                                 <div className="flex items-center justify-center">
-                                    <img
+                                    <Image
                                         className="h-auto max-w-full rounded-lg"
-                                        src=""
+                                        src="/images/Asgaard sofa 2.png"
                                         alt="6image"
                                     />
                                 </div>

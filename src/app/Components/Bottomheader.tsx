@@ -1,7 +1,7 @@
 import React from 'react'
-import Image from 'next/image'
-import { Icon } from 'next/dist/lib/metadata/types/metadata-types'
-import { FaSearch } from "react-icons/fa";
+
+
+
 import { CiHeart } from "react-icons/ci";
 import { MdOutlineShoppingCart } from "react-icons/md";
 import Link from 'next/link';

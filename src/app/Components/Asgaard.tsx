@@ -1,10 +1,11 @@
 import React from 'react'
+import Image from 'next/image'
 
 const Asgaard = () => {
     return (
         <div className='w-full h-[750px] bg-[#FFF9E5;] mt-11 flex justify-start items-center gap-3'>
             <div className='w-[983px] h-[799px] flex'>
-                <img
+                <Image
                     className="h-auto max-w-full rounded-lg mt-5"
                     src="/images/Asgaard sofa 1.png"
                     alt="Sofa"
