@@ -19,7 +19,12 @@ const Seater = () => {
                     className="h-auto max-w-full rounded-lg mt-5"
                     src="/images/Granite square side table 1.png"
                     alt="Side Table"
+                    width={287}
+                    height={287}
+                    
                 />
+
+                
             </div>
 
             {/* Right section (sofa content and image) */}
@@ -37,6 +42,8 @@ const Seater = () => {
                     className="h-auto max-w-full rounded-lg mt-5"
                     src="/images/Cloud sofa three seater + ottoman_3 1.png"
                     alt="Sofa"
+                    width={605}
+                    height={523}
                 />
             </div>
         </div>

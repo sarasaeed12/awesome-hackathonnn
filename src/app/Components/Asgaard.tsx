@@ -9,6 +9,8 @@ const Asgaard = () => {
                     className="h-auto max-w-full rounded-lg mt-5"
                     src="/images/Asgaard sofa 1.png"
                     alt="Sofa"
+                    width={983}
+                    height={799}
                 />
                   {/* / text / */}
             <div className=' flex flex-col justify-center items-center'>

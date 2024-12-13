@@ -19,7 +19,12 @@ const Top = () => {
                             className="h-auto max-w-full rounded-lg mt-5"
                             src="/images/Trenton modular sofa_3 1.png"
                             alt="Sofa"
+                            width={287}
+                            height={287}
                         />
+
+
+<Image src="/images/ci_grid-big-round.png" alt="uicons" width={25} height={25} />
                     </div>
                     <div>
                         <p className='font-thin'>Trenton modular sofa_3</p>
@@ -40,6 +45,8 @@ const Top = () => {
                             className="h-auto max-w-full rounded-lg mt-5"
                             src="/images/Granite dining table with dining chair 1.png"
                             alt="Sofa"
+                            width={255}
+                            height={185}
                         />
                     </div>
                     <div>
@@ -60,6 +67,8 @@ const Top = () => {
                             className="h-auto max-w-full rounded-lg mt-5"
                             src="/images/Outdoor bar table and stool 1.png"
                             alt="Sofa"
+                            width={287}
+                            height={287}
                         />
                     </div>
                     <div>
@@ -80,6 +89,8 @@ const Top = () => {
                             className="h-auto max-w-full rounded-lg mt-5"
                             src="/images/Plain console with teak mirror 1.png"
                             alt="Sofa"
+                            width={240}
+                            height={174}
                         />
                     </div>
                     <div>
