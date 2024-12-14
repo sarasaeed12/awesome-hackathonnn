@@ -7,7 +7,7 @@ import Image from 'next/image';
 const page = () => {
     return (
 
-
+<div className='flex flex-col justify-center items-center'>
         <div className='text-gray-400 mt-[20px] pl-[200px] '>
             <div className='flex justify-start items-center'>
                 <a href='/'>Home</a>
@@ -36,7 +36,7 @@ const page = () => {
                                 <div className="flex items-center justify-center bg-[#FFF9E5]">
                                     <Image
                                         className="h-auto max-w-full "
-                                        src="/images/Asgaard sofa 2.png"
+                                        src="/images/Asgaardsofa2.png"
                                         alt="image"
                                         width={481}
                                         height={391}
@@ -238,11 +238,102 @@ const page = () => {
 
 
                 </div>
+
+                
             </div>
+
+            <div className='flex  flex-col justify-center items-center mt-9'>
+            <div>
+                  <h1 className='font-medium text-3xl'>Related Products</h1>
+                </div>
+                <div>
+                    {/* / 1 products / */}
+
+
+            <div className='flex justify-center items-center gap-3'>
+                <div className="max-w-sm bg-white dark:bg-gray-800 dark:border-gray-700 ">
+                    <a href="#">
+                        <Image src="/images/Trenton modular sofa_3 1.png" alt="course2" width={287} height={287} />
+                    </a>
+                    <div className="p-5">
+
+                        <p className="mb-3 font-normal text-black">Trenton modular sofa_3</p>
+                        <h1 className='font-bold space-x-3'>Rs. 25,000.00</h1>
+
+                    </div>
+                </div>
+                {/* / 2 products / */}
+
+                <div className="max-w-sm bg-white dark:bg-gray-800 dark:border-gray-700">
+                    <a href="#">
+                        <Image src="/images/Granite dining table with dining chair 1.png" alt="course2" width={287} height={287} />
+                    </a>
+                    <div className="p-5">
+
+                        <p className="mb-3 font-normal text-black">Granite dining table with dining chair3</p>
+                        <h1 className='font-bold space-x-3'>Rs. 25,000.00</h1>
+
+                    </div>
+                </div>
+
+                {/* / 3 products / */}
+
+
+
+                <div className="max-w-sm bg-white dark:bg-gray-800 dark:border-gray-700">
+                    <a href="#">
+                        <Image src="/images/Outdoor sofa set 1.png" alt="course2" width={287} height={287} />
+                    </a>
+                    <div className="p-5">
+
+                        <p className="mb-3 font-normal text-black">Outdoor bar table and stool</p>
+                        <h1 className='font-bold space-x-3'>Rs. 25,000.00</h1>
+
+                    </div>
+                </div>
+
+
+                {/* / 4 products / */}
+
+
+
+                <div className="max-w-sm bg-white dark:bg-gray-800 dark:border-gray-700">
+                    <a href="#">
+                        <Image src="/images/Plain console_ 1 (1).png" alt="course2" width={287} height={287} />
+                    </a>
+                    <div className="p-5">
+
+                        <p className="mb-3 font-normal text-black">Plain console with teak mirror</p>
+                        <h1 className='font-bold space-x-3'>Rs. 25,000.00</h1>
+
+                    </div>
+                </div>
+
+            </div>
+                </div>
+                {/* / view More / */}
+           <div className='flex justify-center items-center mt-10'>
+           <a
+                    href="#"
+                    className="font-medium text-black hover:underline mt-2"
+                >
+                    View More
+                </a>
+           </div>
+
+        </div>
+        <div/>
+                
+
+            
 
 
 
         </div>
+        </div>
+
+
+
     )
 }
 

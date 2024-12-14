@@ -7,7 +7,7 @@ const Asgaard = () => {
             <div className='w-[983px] h-[799px] flex'>
                 <Image
                     className="h-auto max-w-full rounded-lg mt-5"
-                    src="/images/Asgaard sofa 1.png"
+                    src="/images/Asgaardsofa1.png"
                     alt="Sofa"
                     width={983}
                     height={799}
