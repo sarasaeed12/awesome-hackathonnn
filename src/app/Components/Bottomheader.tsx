@@ -12,9 +12,9 @@ import { CgProfile } from "react-icons/cg";
 
 const Bottomheader = () => {
   return (
-    <div className='w-full h-[100px] flex justify-between items-center mt-4 bg-[#FBEBB5;]'>
+    <div className='max-w-full h-[100px] flex justify-center items-center bg-[#FBEBB5] gap-7 sm:items-center w-full'>
     
-    <div className=' gap-[48px] flex justify-between items-center pl-[600px]'>
+    <div className=' gap-[20px] flex justify-c'>
         {/* <p>Home</p>
         <p>Contact</p>
         <p>About</p>
@@ -28,7 +28,7 @@ const Bottomheader = () => {
    
       
       
-     <div className='flex gap-[30px] pr-[40px] '>
+     <div className='flex gap-[20px] pr-[50px]'>
      <CgProfile />
 
         <CiHeart />

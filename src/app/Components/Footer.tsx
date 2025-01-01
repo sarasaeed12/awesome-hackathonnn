@@ -10,9 +10,9 @@ import React from 'react'
 
 const Footer = () => {
   return (
-    <footer>
+    <footer >
 
-      <div className='w-full bg-white mt-9 pt-9 text-black flex justify-center items-center'>
+      <div className='w-full bg-white mt-9 pt-9 text-black flex justify-center items-center sm:flex flex-col md:flex-col lg:flex xl:flex'>
         <div className='w-[1240px] h-auto flex flex-row gap-10 items-center'>
           
 

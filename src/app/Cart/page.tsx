@@ -7,7 +7,7 @@ const page = () => {
     <div>
       {/* / background / */}
       <div>
-        <div className="relative w-full h-[450px] bg-cover bg-center" style={{ backgroundImage: "url('/images/Rectangle 1 (1).png')" }}>
+        <div className="relative w-full h-[450px] bg-cover bg-center" style={{ backgroundImage: "url('/images/1(28).png')" }}>
           {/* Overlay Content */}
           <div className="absolute inset-0 flex flex-col justify-center items-center text-center bg-black bg-opacity-10">
             <Image src="/images/Meubel House_Logos-05.png" alt="logo" width={77} height={77} />
@@ -106,7 +106,7 @@ const page = () => {
           <p>Rs.250,000.00</p>
         </div>
         
-        <button className='w-[300px] h-[64px] border-2 border-black rounded-lg  '>Check Out</button>
+        <a href="/Checkout" className='bg-white outline rounded pl-8 pr-8 pt-3 pb-3'>Check Out</a>
         
 
       </div>

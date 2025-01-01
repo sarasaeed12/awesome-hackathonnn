@@ -3,21 +3,21 @@ import Image from 'next/image'
 
 const Top = () => {
     return (
-        <div className='w-full h-[777px]bg-white '>
+        <div className='w-full bg-white'>
             <div className='flex flex-col justify-center items-center text-center mt-10'>
-            <h1 className='font-bold text-4xl'>Top Picks For You</h1>
+            <h1 className='font-bold text-4xl sm:mt-[400px] md:mt-[400px] lg:text-5xl xl:text-6xl'>Top Picks For You</h1>
             
-            <p>Find a bright ideal to suit your taste with our great selection of suspension, floor and table lights.</p>
+            <p className='text-center'>Find a bright ideal to suit your taste with our great selection of suspension, floor and table lights.</p>
             </div>
             {/* / 1 images/ */}
 
-<div className='flex justify-center items-center gap-8'>
+<div className='flex justify-center items-center gap-8 sm:flex-col md:flex-col lg:flex-row xl:flex-row'>
             <div className='flex justify-center items-center'>
                 <div className='w-[287px] h-[372px]'>
                     <div className='w-[287px] h-[287px]'>
                         <Image
                             className="h-auto max-w-full rounded-lg mt-5"
-                            src="/images/Trenton modular sofa_3 1.png"
+                            src="/images/1(38).png"
                             alt="Sofa"
                             width={287}
                             height={287}
@@ -43,7 +43,7 @@ const Top = () => {
                     <div className='w-[287px] h-[287px]'>
                         <Image
                             className="h-auto max-w-full rounded-lg mt-5"
-                            src="/images/Granite dining table with dining chair 1.png"
+                            src="/images/1(15).png"
                             alt="Sofa"
                             width={255}
                             height={185}
@@ -65,7 +65,7 @@ const Top = () => {
                     <div className='w-[287px] h-[287px]'>
                         <Image
                             className="h-auto max-w-full rounded-lg mt-5"
-                            src="/images/Outdoor bar table and stool 1.png"
+                            src="/images/1(21).png"
                             alt="Sofa"
                             width={287}
                             height={287}
@@ -87,7 +87,7 @@ const Top = () => {
                     <div className='w-[287px] h-[287px]'>
                         <Image
                             className="h-auto max-w-full rounded-lg mt-5"
-                            src="/images/Plain console with teak mirror 1.png"
+                            src="/images/1(23).png"
                             alt="Sofa"
                             width={240}
                             height={174}
