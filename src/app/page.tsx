@@ -15,7 +15,7 @@ import Instagram from "./Components/Instagram";
 
 export default function Home() {
   return (
-    <div className="flex flex-col">
+    <div className="flex flex-col m-">
    
       
       <Hero />

@@ -4,7 +4,7 @@ import Image from 'next/image'
 const Top = () => {
     return (
         <div className='w-full bg-white'>
-            <div className='flex flex-col justify-center items-center text-center mt-10'>
+            <div className='flex flex-col justify-center items-center text-center '>
             <h1 className='font-bold text-4xl sm:mt-[400px] md:mt-[400px] lg:text-5xl xl:text-6xl'>Top Picks For You</h1>
             
             <p className='text-center'>Find a bright ideal to suit your taste with our great selection of suspension, floor and table lights.</p>

@@ -56,7 +56,7 @@ const page = () => {
         
           <div className='flex shrink-0 gap-5'>
         
-          <Image src="/images/Asgaardsofa1.png" alt="asgaardsofa" width={113} height={92} className='rounded'/>
+          <Image src="/images/1(5).png" alt="asgaardsofa" width={113} height={92} className='rounded'/>
 
           <div className='flex justify-center items-center gap-[50px] mt-3'>
         <div className='flex flex-col '>
@@ -80,7 +80,7 @@ const page = () => {
         <p>Rs.250,000.00</p>
         </div>
         <div className='flex flex-col '>
-        <Image src="/images/235.png" alt="asgaardsofa" width={21} height={21} className='rounded'/>
+        <Image src="/images/1(2).png" alt="asgaardsofa" width={21} height={21} className='rounded'/>
         </div>
         </div>
           

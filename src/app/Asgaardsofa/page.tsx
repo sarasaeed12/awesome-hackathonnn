@@ -95,33 +95,33 @@ const page = () => {
                             <p className='w-[173px] h-[36px] font-bold text-gray-400 text-2xl'>Rs. 250,000.00</p>
                             <div className='flex justify-start items-center mt-5'>
                                 <Image
-                                    src={"/images/Vector.png"}
+                                    src={"/images/1(1).png"}
                                     alt='star'
                                     width={18}
                                     height={18} />
 
                                 <Image
-                                    src={"/images/Vector.png"}
+                                    src={"/images/1(1).png"}
                                     alt='star'
                                     width={18}
                                     height={18} />
 
                                 <Image
-                                    src={"/images/Vector.png"}
-                                    alt='star'
-                                    width={18}
-                                    height={18} />
-
-
-                                <Image
-                                    src={"/images/Vector.png"}
+                                    src={"/images/1(1).png"}
                                     alt='star'
                                     width={18}
                                     height={18} />
 
 
                                 <Image
-                                    src={"/images/Vector.png"}
+                                    src={"/images/1(1).png"}
+                                    alt='star'
+                                    width={18}
+                                    height={18} />
+
+
+                                <Image
+                                    src={"/images/1(1).png"}
                                     alt='star'
                                     width={18}
                                     height={18} />
@@ -137,12 +137,12 @@ const page = () => {
                             </p>
                             <p>size</p>
                             <div className='flex justify-start items-center gap-4'>
-                                <div className="w-[30px] [30px] rounded  bg-gray-300 flex items-center justify-center">
+                                <div className="w-[30px] h-[30px] rounded  bg-gray-300 flex items-center justify-center">
                                     <p>
                                         L </p>
                                 </div>
 
-                                <div className="[30px] h-[30px] rounded bg-gray-300 flex items-center justify-center">
+                                <div className="w-[30px] h-[30px] rounded bg-gray-300 flex items-center justify-center">
                                     <p> XL</p>
                                 </div>
                                 <div className="w-[30px] h-[30px] rounded bg-gray-300 flex items-center justify-center">

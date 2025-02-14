@@ -4,7 +4,7 @@ import Image from 'next/image'
 const Seater = () => {
     return (
 
-        <div className='flex justify-center items-center mt-5 h-screen w-full gap-[200px] sm:flex-col mt-[400px] lg:flex-row xl:flex-row'>
+        <div className='bg-gray-100 flex justify-center items-center  h-screen w-full gap-[200px] sm:flex-col mt-[400px] lg:flex-row xl:flex-row'>
             <div className='flex flex-col mx-4 '>
             
                 <Image
@@ -17,7 +17,7 @@ const Seater = () => {
                 />
             
 
-            <div className="flex flex-col mx-4">
+            <div className="flex flex-col ">
                 <h1 className="text-2xl font-bold ">
                     Side Table
                 </h1>

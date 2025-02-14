@@ -21,10 +21,10 @@ const Shop = () => {
             {/* Filter Section */}
             <div className="bg-[#FAF4F4] w-full h-[50px] sm:h-[60px] flex justify-between items-center px-4 sm:px-8 md:px-16">
                 <div className="flex items-center gap-4 sm:gap-6">
-                    <Image src="/images/system-uicons_filtering.png" alt="uicons" width={20} height={20} />
+                    <Image src="/images/1(36).png" alt="uicons" width={20} height={20} />
                     <p className="text-sm sm:text-base">Filter</p>
-                    <Image src="/images/ci_grid-big-round.png" alt="uicons" width={20} height={20} />
-                    <Image src="/images/bi_view-list.png" alt="uicons" width={20} height={20} />
+                    <Image src="/images/1(9).png" alt="uicons" width={20} height={20} />
+                    <Image src="/images/1(7).png" alt="uicons" width={20} height={20} />
                     <h3 className="text-xs sm:text-sm md:text-base">Showing 1–16 of 32 results</h3>
                 </div>
                 <div className="flex items-center gap-6">
@@ -47,6 +47,18 @@ const Shop = () => {
                     { img: "/images/1(15).png", name: "Granite dining table with dining chair3", price: "Rs. 25,000.00" },
                     { img: "/images/1(22).png", name: "Outdoor bar table and stool", price: "Rs. 25,000.00" },
                     { img: "/images/1(25).png", name: "Plain console with teak mirror", price: "Rs. 25,000.00" },
+                    { img: "/images/1(14).png", name: "Trenton modular sofa_3", price: "Rs. 25,000.00" },
+                    { img: "/images/1(18).png", name: "Granite dining table with dining chair3", price: "Rs. 25,000.00" },
+                    { img: "/images/1(34).png", name: "Outdoor bar table and stool", price: "Rs. 25,000.00" },
+                    { img: "/images/1(26).png", name: "Plain console with teak mirror", price: "Rs. 25,000.00" },
+                    { img: "/images/1(25).png", name: "Trenton modular sofa_3", price: "Rs. 25,000.00" },
+                    { img: "/images/1(27).png", name: "Granite dining table with dining chair3", price: "Rs. 25,000.00" },
+                    { img: "/images/1(35).png", name: "Outdoor bar table and stool", price: "Rs. 25,000.00" },
+                    { img: "/images/1(6).png", name: "Plain console with teak mirror", price: "Rs. 25,000.00" },
+                    { img: "/images/1(16).png", name: "Trenton modular sofa_3", price: "Rs. 25,000.00" },
+                    { img: "/images/1(4).png", name: "Granite dining table with dining chair3", price: "Rs. 25,000.00" },
+                    { img: "/images/1(19).png", name: "Outdoor bar table and stool", price: "Rs. 25,000.00" },
+                    { img: "/images/1(22).png", name: "Plain console with teak mirror", price: "Rs. 25,000.00" },
                 ].map((product, index) => (
                     <div key={index} className="max-w-sm mx-auto bg-white dark:bg-gray-800 border border-gray-300">
                         <a href="#">
@@ -71,7 +83,7 @@ const Shop = () => {
             </div>
 
             {/* Features Section */}
-            <div className="w-full h-auto bg-[#FAF4F4] flex flex-wrap justify-center items-center py-12 px-4 sm:px-8 md:px-16">
+            <div className="w-full h-auto bg-[#FAF4F4] flex flex-wrap justify-center items-center mt-10 py-12 px-4 sm:px-8 md:px-16">
                 {[
                     { title: "Free Delivery", desc: "For all orders over $50, consectetur adipiscing elit." },
                     { title: "90 Days Return", desc: "If goods have problems, consectetur adipiscing elit." },
