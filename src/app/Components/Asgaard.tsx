@@ -1,31 +1,37 @@
-import React from 'react'
-import Image from 'next/image'
+import React from 'react';
+import Image from 'next/image';
 
 const Asgaard = () => {
     return (
-        <div className='flex justify-center items-center sm:flex-col md:flex-col lg:flex-row xl:flex-row'>
-            <div>
-            <Image
-                    className="h-auto max-w-full rounded-lg mt-5"
+        <div className="w-full bg-white py-10 px-6 flex flex-col items-center text-center">
+            {/* Text Section */}
+            <div className="flex flex-col items-center max-w-2xl">
+                <h3 className="font-normal text-gray-600">New Arrivals</h3>
+                <h1 className="font-bold text-4xl sm:text-5xl">Asgaard Sofa</h1>
+            </div>
+
+            {/* Image Section */}
+            <div className="w-full max-w-[983px] flex justify-center mt-6">
+                <Image
+                    className="h-auto w-full rounded-lg"
                     src="/images/1(4).png"
-                    alt="Sofa"
+                    alt="Asgaard Sofa"
                     width={983}
                     height={799}
                 />
             </div>
 
-            {/* / text / */}
-            <div className=' flex flex-col justify-center items-center'>
-                <h3 className='font-normal flex flex-row'>New Arrivals</h3>
-                <h1 className='font-bold text-5xl w-[331px] h-[72px]'>Asgaard sofa</h1>
-                
-               
-                <a href="/Asgaardsofa" className='bg-white outline rounded pl-8 pr-8 pt-3 pb-3' >Order Now</a>
-                
-                <div/>
+            
+            <a
+                href="/Asgaardsofa"
+                className="mt-6 bg-gray-900 text-white font-medium px-8 py-3 rounded-md transition duration-300 hover:bg-gray-700"
+            >
+                Order Now
+            </a>
         </div>
-        </div>
-    )
-}
+    );
+};
 
-export default Asgaard
+export default Asgaard;
+
+
